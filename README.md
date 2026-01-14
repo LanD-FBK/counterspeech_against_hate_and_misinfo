@@ -1,10 +1,10 @@
-# counterspeech_against_hate_and_misinfo
+# Counterspeech against hate and misinformation
 
 # Dataset description
 
-This is a demonstration subset of the dataset related to the 10207 TACL submission "Assisted Counterspeech Writing at the Crossroads of Hate Speech and Misinformation".
+This is the dataset related to the paper "Assisted Counterspeech Writing at the Crossroads of Hate Speech and Misinformation".
 
-Each entry in the dataset contains **12 fields**:
+Each entry in the dataset contains **13 fields**:
 
 - **`pair_id`**: Unique identifier for the claim–counterspeech pair.  
 - **`claim`**: A hateful claim containing misinformation.  
@@ -19,5 +19,6 @@ Each entry in the dataset contains **12 fields**:
 - **`antistereotype_url`**: List of source URLs for the anti-stereotypes used.  
 - **`antistereotype_location`**: Location of the specific anti-stereotype within the corresponding antistereotype source URL.  
   For example, an antistereotype location value of `"2"` for the antistereotype URL  
-  `https://www.adl.org/sites/default/files/myths-and-facts-about-muslim-people-and-islam.pdf`  
+  `https://www.adl.org/sites/default/files/myths-and-facts-about-muslim-people-and-islam.pdf`
   refers to *Myth #2* in that page.
+- **`HTER`**: contains the HTER score computed using the pyter3 library between `CS_gen` and `CS_ed`. Pairs with a HTER value >= 0.39 were selected for the human evaluation addressing RQ1.
