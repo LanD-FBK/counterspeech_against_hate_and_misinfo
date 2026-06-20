@@ -25,16 +25,17 @@ Each entry in the dataset contains **13 fields**:
 - **`HTER`**: contains the HTER score computed using the pyter3 library between `CS_gen` and `CS_ed`. Pairs with a HTER value >= 0.39 were selected for the human evaluation addressing RQ1.
 
 ## Citation
-`
+```
 @article{martone2026assisted,
   title={Assisted Counterspeech Writing at the Crossroads of Hate Speech and Misinformation},
   author={Martone, Genoveffa and Bonaldi, Helena and Guerini, Marco},
   journal={arXiv preprint arXiv:2605.22435},
   year={2026}
 }
-`
+```
 
 # CATCH-ME
+This is the dataset related to the paper "Assisted Counterspeech Writing at the Crossroads of Hate Speech and Misinformation".
 
 ## Dataset description
 
