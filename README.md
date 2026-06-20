@@ -44,6 +44,8 @@ Each entry in the dataset contains **13 fields**:
 ## CATCH-ME
 This is the dataset related to the paper "CATCH-ME if you RAG: a dataset of Contextually Annotated multi-Turn Counterspeech against Hate and Misinformation Exchanges".
 
+⚠️ The code to replicate the chunk-level annotations will be released soon.
+
 ### Dataset description
 Each entry in the dataset corresponds to a dialogue, and contains the following fields. 
 - `parent`: if different from 0, the `id` of the parent dialogue (i.e. the post-edited dialogue of which the current dialogue is a modification itself)
