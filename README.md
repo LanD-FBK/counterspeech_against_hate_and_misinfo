@@ -3,7 +3,7 @@ This page contains several expert-curated datasets for fighting online hate and 
 
 | Dataset                                    |                                  Content                                 | Year | Paper                                             |
 |--------------------------------------------|----------------------------------------------------------------------|--------------|---------------------------------------------------|
-| [Pairs with fact-checking, NGO and mixed strategy CS](#pairs)                                    | HS+misinfo and CS pairs dataset.                                   | 2026         | https://arxiv.org/pdf/2605.22435pdf                                               |
+| [Pairs with fact-checking, NGO and mixed strategy CS](#pairs-with-fact-checking-ngo-and-mixed-strategy-cs)                                    | HS+misinfo and CS pairs dataset.                                   | 2026         | https://arxiv.org/pdf/2605.22435                                               |
 | [CATCH-ME](#catch-me)                          | A multi-turn HS+misinfo and CS dataset.               | 2026         | https://arxiv.org/pdf/2606.20369    |
 
 ***
