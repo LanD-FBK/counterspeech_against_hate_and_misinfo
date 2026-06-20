@@ -1,10 +1,17 @@
 # Counterspeech datasets against hate and misinformation
 This page contains several expert-curated datasets for fighting online hate and misinformation through counterspeech (CS). For each dataset we provide a description of its characteristics, the data, and the corresponding publication.
 
-# Pairs with fact-checking, NGO and mixed strategy CS
+| Dataset                                    |                                  Content                                 | Year | Paper                                             |
+|--------------------------------------------|----------------------------------------------------------------------|--------------|---------------------------------------------------|
+| [Pairs with fact-checking, NGO and mixed strategy CS](#pairs)                                    | HS+misinfo and CS pairs dataset.                                   | 2026         | https://arxiv.org/pdf/2605.22435pdf                                               |
+| [CATCH-ME](#catch-me)                          | A multi-turn HS+misinfo and CS dataset.               | 2026         | https://arxiv.org/pdf/2606.20369    |
+
+***
+
+## Pairs with fact-checking, NGO and mixed strategy CS
 This is the dataset related to the paper "Assisted Counterspeech Writing at the Crossroads of Hate Speech and Misinformation".
 
-## Dataset description
+### Dataset description
 Each entry in the dataset contains **13 fields**:
 
 - **`pair_id`**: Unique identifier for the claim–counterspeech pair.  
@@ -24,7 +31,7 @@ Each entry in the dataset contains **13 fields**:
   refers to *Myth #2* in that page.
 - **`HTER`**: contains the HTER score computed using the pyter3 library between `CS_gen` and `CS_ed`. Pairs with a HTER value >= 0.39 were selected for the human evaluation addressing RQ1.
 
-## Citation
+### Citation
 ```
 @article{martone2026assisted,
   title={Assisted Counterspeech Writing at the Crossroads of Hate Speech and Misinformation},
@@ -34,10 +41,10 @@ Each entry in the dataset contains **13 fields**:
 }
 ```
 
-# CATCH-ME
+## CATCH-ME
 This is the dataset related to the paper "CATCH-ME if you RAG: a dataset of Contextually Annotated multi-Turn Counterspeech against Hate and Misinformation Exchanges".
 
-## Dataset description
+### Dataset description
 Each entry in the dataset corresponds to a dialogue, and contains the following fields. 
 - `parent`: if different from 0, the `id` of the parent dialogue (i.e. the post-edited dialogue of which the current dialogue is a modification itself)
 - `id`: dialogue id 
@@ -61,7 +68,7 @@ Each entry in the dataset corresponds to a dialogue, and contains the following 
 - `original_dialogue`: contains the generated dialogue (when present) before post-editing. Same structure as `annotations['data']` content.
 
 
-## Citation
+### Citation
 ```
 @article{bonaldi2026catch,
   title={CATCH-ME if you RAG: a dataset of Contextually Annotated multi-Turn Counterspeech against Hate and Misinformation Exchanges}, 
